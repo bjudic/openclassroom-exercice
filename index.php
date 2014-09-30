@@ -1,6 +1,6 @@
 <?php
+  include('dico.php');
   
-  $massage = 'hello world !';
-  echo $massage;
+  echo $DICO['message'];
 
 ?>
